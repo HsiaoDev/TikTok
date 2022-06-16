@@ -1,0 +1,67 @@
+PODS:
+  - Alamofire (5.6.1)
+  - HandyJSON (5.0.2)
+  - libwebp (1.2.1):
+    - libwebp/demux (= 1.2.1)
+    - libwebp/mux (= 1.2.1)
+    - libwebp/webp (= 1.2.1)
+  - libwebp/demux (1.2.1):
+    - libwebp/webp
+  - libwebp/mux (1.2.1):
+    - libwebp/demux
+  - libwebp/webp (1.2.1)
+  - MJRefresh (3.7.5)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - SDWebImage (5.12.5):
+    - SDWebImage/Core (= 5.12.5)
+  - SDWebImage/Core (5.12.5)
+  - SnapKit (5.6.0)
+  - Starscream (4.0.4)
+  - SwiftLint (0.47.1)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - Alamofire
+  - HandyJSON
+  - libwebp
+  - MJRefresh
+  - Moya
+  - SDWebImage
+  - SnapKit
+  - Starscream
+  - SwiftLint
+  - YYKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HandyJSON
+    - libwebp
+    - MJRefresh
+    - Moya
+    - SDWebImage
+    - SnapKit
+    - Starscream
+    - SwiftLint
+    - YYKit
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  libwebp: 98a37e597e40bfdb4c911fc98f2c53d0b12d05fc
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SwiftLint: f80f1be7fa96d30e0aa68e58d45d4ea1ccaac519
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 7c946eb4f94f4295f50c0ff5ec1b4d2d58348b5f
+
+COCOAPODS: 1.11.2
