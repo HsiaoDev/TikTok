@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01B739C5286066C7002FAAFB /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B739C4286066C7002FAAFB /* BaseModel.swift */; };
+		01B739C728606700002FAAFB /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B739C628606700002FAAFB /* UserModel.swift */; };
 		01F77D46285B33CC00A62606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F77D45285B33CC00A62606 /* AppDelegate.swift */; };
 		01F77D48285B33CC00A62606 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F77D47285B33CC00A62606 /* SceneDelegate.swift */; };
 		01F77D4A285B33CC00A62606 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F77D49285B33CC00A62606 /* ViewController.swift */; };
 		01F77D4D285B33CC00A62606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F77D4B285B33CC00A62606 /* Main.storyboard */; };
 		01F77D4F285B33CD00A62606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F77D4E285B33CD00A62606 /* Assets.xcassets */; };
 		01F77D52285B33CD00A62606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F77D50285B33CD00A62606 /* LaunchScreen.storyboard */; };
+		01F77D5B285B545D00A62606 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F77D5A285B545D00A62606 /* String+.swift */; };
+		01F77D60285B5C5B00A62606 /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F77D5F285B5C5B00A62606 /* WebSocketManager.swift */; };
 		F3F381C1F102A3D371999B6D /* libPods-TikTok.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D813FA5EFD027979E4BAB9 /* libPods-TikTok.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01B739C4286066C7002FAAFB /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		01B739C628606700002FAAFB /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		01F77D42285B33CC00A62606 /* TikTok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F77D45285B33CC00A62606 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01F77D47285B33CC00A62606 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,6 +31,8 @@
 		01F77D4E285B33CD00A62606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01F77D51285B33CD00A62606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01F77D53285B33CD00A62606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01F77D5A285B545D00A62606 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		01F77D5F285B5C5B00A62606 /* WebSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketManager.swift; sourceTree = "<group>"; };
 		1311860281074164FC195F84 /* Pods-TikTok.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikTok.debug.xcconfig"; path = "Target Support Files/Pods-TikTok/Pods-TikTok.debug.xcconfig"; sourceTree = "<group>"; };
 		7E5101966C28E056AA16C35A /* Pods-TikTok.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikTok.release.xcconfig"; path = "Target Support Files/Pods-TikTok/Pods-TikTok.release.xcconfig"; sourceTree = "<group>"; };
 		B1D813FA5EFD027979E4BAB9 /* libPods-TikTok.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TikTok.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +50,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01B739C22860666C002FAAFB /* Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		01B739C32860669D002FAAFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01B739C628606700002FAAFB /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		01F77D39285B33CC00A62606 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +86,11 @@
 		01F77D44285B33CC00A62606 /* TikTok */ = {
 			isa = PBXGroup;
 			children = (
+				01F77D61285C286B00A62606 /* BaseClass */,
+				01B739C32860669D002FAAFB /* Models */,
+				01B739C22860666C002FAAFB /* Module */,
+				01F77D5C285B5BFF00A62606 /* NetWork */,
+				01F77D59285B542B00A62606 /* Extensions */,
 				01F77D45285B33CC00A62606 /* AppDelegate.swift */,
 				01F77D47285B33CC00A62606 /* SceneDelegate.swift */,
 				01F77D49285B33CC00A62606 /* ViewController.swift */,
@@ -72,6 +100,62 @@
 				01F77D53285B33CD00A62606 /* Info.plist */,
 			);
 			path = TikTok;
+			sourceTree = "<group>";
+		};
+		01F77D59285B542B00A62606 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				01F77D5A285B545D00A62606 /* String+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		01F77D5C285B5BFF00A62606 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				01F77D5E285B5C1600A62606 /* WebSocket */,
+				01F77D5D285B5C0E00A62606 /* HTTP */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		01F77D5D285B5C0E00A62606 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		01F77D5E285B5C1600A62606 /* WebSocket */ = {
+			isa = PBXGroup;
+			children = (
+				01F77D5F285B5C5B00A62606 /* WebSocketManager.swift */,
+			);
+			path = WebSocket;
+			sourceTree = "<group>";
+		};
+		01F77D61285C286B00A62606 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				01F77D64285C28B800A62606 /* Views */,
+				01F77D63285C28AA00A62606 /* Controllers */,
+				01B739C4286066C7002FAAFB /* BaseModel.swift */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		01F77D63285C28AA00A62606 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		01F77D64285C28B800A62606 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		614E54BFD4903D499B510213 /* Pods */ = {
@@ -206,8 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01B739C5286066C7002FAAFB /* BaseModel.swift in Sources */,
+				01B739C728606700002FAAFB /* UserModel.swift in Sources */,
 				01F77D4A285B33CC00A62606 /* ViewController.swift in Sources */,
+				01F77D60285B5C5B00A62606 /* WebSocketManager.swift in Sources */,
 				01F77D46285B33CC00A62606 /* AppDelegate.swift in Sources */,
+				01F77D5B285B545D00A62606 /* String+.swift in Sources */,
 				01F77D48285B33CC00A62606 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
